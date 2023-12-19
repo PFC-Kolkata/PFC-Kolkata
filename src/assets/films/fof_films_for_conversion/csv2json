@@ -1,0 +1,79 @@
+#!/bin/bash
+
+IFS=$'\n'
+
+echo '{'
+echo '	"fof":'
+echo '	{'
+
+last_f_year=0
+
+for i in $( cat $@ )
+do
+	f_year=$( awk -F $'\t' '{ print $1 }' <<< "$i" )
+	movie=$( awk -F $'\t' '{ print $2 }' <<< "$i" )
+	minutes=$( awk -F $'\t' '{ print $3 }' <<< "$i" )
+	seconds=$( awk -F $'\t' '{ print $4 }' <<< "$i" )
+	year=$( awk -F $'\t' '{ print $5 }' <<< "$i" )
+	country=$( awk -F $'\t' '{ print $6 }' <<< "$i" )
+	language=$( awk -F $'\t' '{ print $7 }' <<< "$i" )
+	subtitles=$( awk -F $'\t' '{ print $8 }' <<< "$i" )
+	plot=$( awk -F $'\t' '{ print $9 }' <<< "$i" )
+	note=$( awk -F $'\t' '{ print $10 }' <<< "$i" )
+	director=$( awk -F $'\t' '{ print $11 }' <<< "$i" )
+	director_info=$( awk -F $'\t' '{ print $12 }' <<< "$i" )
+	cinematographer=$( awk -F $'\t' '{ print $13 }' <<< "$i" )
+	editor=$( awk -F $'\t' '{ print $14 }' <<< "$i" )
+	production_design=$( awk -F $'\t' '{ print $15 }' <<< "$i" )
+	sound=$( awk -F $'\t' '{ print $16 }' <<< "$i" )
+	colorist=$( awk -F $'\t' '{ print $17 }' <<< "$i" )
+	producer=$( awk -F $'\t' '{ print $18 }' <<< "$i" )
+
+	if [ $(( $f_year + 0 )) -ne $(( $last_f_year + 0 )) ]
+	then
+		echo -e "],\n\"$f_year\": [\n"
+		j=1
+	fi
+
+		echo '{'
+		echo '			' \"poster\": \"fof/$f_year/film_$j/poster.webp\",
+		echo '			' \"movie\":
+		echo '				' {
+		echo '					' \"name\": \"$movie\",
+		echo '					' \"director\":
+		echo '					' {
+		echo '						' \"name\":\"$director\",
+		echo '					' \"about\": \"$director_info\"
+		echo '					' },
+		echo '					' \"duration\":
+		echo '						' {
+		echo '						' \"minutes\": \"$minutes\",
+		echo '						' \"seconds\": \"$seconds\"
+		echo '						' },
+		echo '					' \"year\": \"$year\",
+		echo '					' \"country\": \"$country\",
+		echo '					' \"language\": \"$language\",
+		echo '					' \"subtitles\": \"$subtitles\",
+		echo '					' \"plot\": \"$plot\",
+		echo '					' \"note\": \"$note\"
+		echo '				' },
+		echo '			' \"personnel\":
+		echo '				' {
+		echo '				' \"screenplay\": \"$screenplay\",
+		echo '					' \"cinematographer\": \"$cinematographer\",
+		echo '					' \"editor\": \"$editor\",
+		echo '					' \"production-designer\": \"$production_design\",
+		echo '					' \"sound-design\": \"$sound\",
+		echo '					' \"colorist\": \"$colorist\",
+		echo '					' \"producer\": \"$producer\"
+		echo '				' }
+		echo '		},'
+		
+		last_f_year=$f_year
+		j=$(( $j + 1))
+done
+
+
+
+echo '	}'
+echo '}'

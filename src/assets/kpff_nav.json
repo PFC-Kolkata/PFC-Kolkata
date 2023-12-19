@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Home",
+        "route": "/festival"
+    },
+    {
+        "title": "Films",
+        "route": "/festival#films"
+    },
+    {
+        "title": "Blogs",
+        "route": "/festival/blogs"
+    },
+    {
+        "title": "Gallery",
+        "route": "/festival/gallery"
+    },
+    {
+        "title": "Schedule",
+        "route": "/festival/schedule"
+    },
+    {
+        "title": "Submit",
+        "route": "/submit"
+    }
+    
+]

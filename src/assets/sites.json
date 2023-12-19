@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Kolkata People's Film Festival",
+        "about": "Lorem ipsum",
+        "fg": "#9aafa8",
+        "bg": "#3c6771",
+        "img": "src/assets/img/fof.webp",
+        "route": "festival"
+    },
+    {
+        "title": "Screenings",
+        "about": "Lorem ipsum",
+        "fg": "#9aafa8",
+        "bg": "#ffffff",
+        "img": "src/assets/img/fof.webp",
+        "route": "screenings"
+    },
+    {
+        "title": "Little Cinema",
+        "about": "Lorem ipsum",
+        "fg": "#a8a78b",
+        "bg": "#bfbf95",
+        "img": "src/assets/img/fof.webp",
+        "route": "little-cinema"
+    },
+    {
+        "title": "Frames of Freedom",
+        "about": "Lorem ipsum",
+        "fg": "#9aafa8",
+        "bg": "#ffffff",
+        "img": "src/assets/img/fof.webp",
+        "route": "fof"
+    },
+    {
+        "title": "Stories",
+        "about": "Lorem ipsum",
+        "fg": "#9aafa8",
+        "bg": "#7d3727",
+        "img": "src/assets/img/fof.webp",
+        "route": "stories"
+    }
+]

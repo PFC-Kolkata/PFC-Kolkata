@@ -1,0 +1,66 @@
+{
+    "chauthi-koot":{
+        "movie":
+            {
+                "name": "Chauthi Koot (The Fourth Direction)",
+                "director":
+                {
+                    "name":"Gurvinder Singh",
+                "about": "'Gurvinder Singh is an Indian film director. He is best known for his Punjabi language films Anhe Ghore Da Daan, and Chauthi Koot (The Fourth Direction) which premiered at Venice and Cannes Film Festival respectively. In 2016, he was invited by a Turkish production house to direct a short film ''Infiltrator'' (16 mins) as part of an international anthology of ten short films from ten countries, titled \"In The Same Garden\". The anthology premiered at the Sarajevo Film Festival in 2016. He made an experimental film based on the short stories of the Colombian writer Garbriel Garcia Marquez as part of a workshop with the students of acting at the FTII. The film titled ''Sea of Lost Time'' (45 mins) premiered at the Rotterdam Film Festival in 2019.'"
+                },
+                "duration":
+                    {
+                    "minutes": "115",
+                    "seconds": ""
+                    },
+                "year": "2015",
+                "country": "India",
+                "language": "Punjabi",
+                "subtitles": "",
+                "plot": "Set during the conflict between Sikh separatists and the Indian army in the early 1980s, fear, distrust and paranoia form the main emotional frame of the narrative. Jugal and Raj, two Hindi friends, miss their last train to Amritsar, the holiest city in Punjab. They end up in a cargo wagon among illegal passengers. In flashbacks we follow Jugal’s family lost at night on the outskirts of a Punjabi village. Full of fear, they hesitantly knock at the door of an isolated house and ask for directions. Later that night, Sikh terrorists visit the same Punjabi family and give orders to kill their dog for barking and drawing attention. The next morning, paramilitary men burst into the house looking for the terrorists.",
+                "note": ""
+            },
+        "personnel":
+            {
+            "screenplay": "",
+                "cinematographer": "Satya Rai Nagpaul",
+                "editor": "'Bhupesh ''Micky'' Sharma'",
+                "production_designer": "Priyanka Grover",
+                "sound_design": "Susmit Nath",
+                "colorist": "Xavier Joseph",
+                "producer": ""
+            }
+   },
+    "film_1":{
+        "movie":
+            {
+                "name": "Kitte Mil Ve Mahi (Where the Twain shall meet)",
+                "director":
+                {
+                    "name":"Ajay Bhardwaj",
+                "about": "Ajay Bhardwaj is a filmmaker and scholar whose work meditates on the relationship between aesthetic and subversive, art and identity, and history and memory. In his long stint as a documentary filmmaker, he explored the northwestern state of Punjab in India for a decade. This phase culminated in his Punjab trilogy—a set of documentaries located at the intersection of Dalit religiosity, performance traditions, and memories of partition. Bhardwaj is a recipient of the Public Scholars Award at the University of British Columbia, where he recently completed his PhD on South Asian Left-wing cultural activism in British Columbia. The doctoral documentary, \"When the Tide Goes Out,\" accompanying his dissertation that examines representational absences in multimedia archive, has been selected for screening at the Vancouver International South Asian Film Festival 2022."
+                },
+                "duration":
+                    {
+                    "minutes": "72",
+                    "seconds": ""
+                    },
+                "year": "2005",
+                "country": "India",
+                "language": "Punjabi",
+                "subtitles": "English",
+                "plot": "'This film, first of Ajay Bharadwaj''s trilogy on Punjab, contends the dominant perceptions of the economic and spiritual heritage of Punjab. It does so through a people’s narrative on the preservation and regeneration of its ‘little’ traditions, which often appear seamlessly cultural and political. The film invites the audience to travel to the heart of Punjab. To enter a world of Sufi shrines worshipped and looked after by Dalits. To listen to B.S. Balli Qawwal Paslewale, the first generation Dalit Qawwals born out of this tradition. To join a fascinating dialogue with Lal Singh Dil—a radical poet, a Dalit, converted to Islam. To meet the last living legend of the Gadar movement, Baba Bhagat Singh Bilga, who contests the subversion of a common past, while affirming a new consciousness among Dalits, within and beyond Punjab. The interplay between the constituents of this mosaic brings to light the triple marginalisation of Dalits—amidst the agricultural boom that is the modern Punjab, in the contesting ground of its ‘major’ religions, and in the intellectual construction of their ‘syncretism’.'",
+                "note": ""
+            },
+        "personnel":
+            {
+            "screenplay": "",
+                "cinematographer": "Ajay Bhardwaj",
+                "editor": "Sachindra Bisht",
+                "production-designer": "",
+                "sound-design": "Asheesh Pandya",
+                "colorist": "",
+                "producer": "Ajay Bhardwaj"
+            }
+        }
+    }

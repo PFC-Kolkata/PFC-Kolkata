@@ -1,0 +1,32 @@
+[
+	{
+		"bulletin": "Publish Site",
+		"time": "1702791863578",
+		"priority": "1"
+	},
+	{
+		"bulletin": "FOF",
+		"time": "1702791863578",
+		"priority": "0"
+	},
+	{
+		"bulletin": "KPFF",
+		"time": "1702791863578",
+		"priority": "1"
+	},
+	{
+		"bulletin": "KPFF Site",
+		"time": "1702791863578",
+		"priority": "1"
+	},
+	{
+		"bulletin": "Mozaic",
+		"time": "1702791863578",
+		"priority": "1"
+	},
+	{
+		"bulletin": "Publish",
+		"time": "1702791863578",
+		"priority": "0"
+	}
+]

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in $( ls )
+do
+	convert $i/poster.jpg $i/poster.webp
+done

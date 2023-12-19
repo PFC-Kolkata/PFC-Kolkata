@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Home",
+        "route": "/fof"
+    },
+    {
+        "title": "Films",
+        "route": "/fof#films"
+    },
+    {
+        "title": "Blogs",
+        "route": "/fof/blogs"
+    },
+    {
+        "title": "Gallery",
+        "route": "/fof/gallery"
+    },
+    {
+        "title": "Schedule",
+        "route": "/fof/schedule"
+    },
+    {
+        "title": "Submit",
+        "route": "/submit"
+    }
+    
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Home",
+        "route": "/"
+    },
+    {
+        "title": "Notice Board",
+        "route": "/notices"
+    },
+    {
+        "title": "In The News",
+        "route": "/news"
+    },
+    {
+        "title": "Publications",
+        "route": "/pubs"
+    },
+    {
+        "title": "Support Us",
+        "route": "/support"
+    }
+    
+]
